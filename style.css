@@ -14,7 +14,7 @@ body{
 background: linear-gradient(145deg, rgb(123, 250, 95) 36%, rgb(43, 67, 39) 100%);
 background-repeat: no-repeat;
 background-size: auto;
-    overflow-x: hidden;
+overflow-x: hidden;
 }
 
 .cabecalho{
@@ -148,5 +148,4 @@ li{
 .conteudosecundario-titulo{
     margin-left: 50px;
     font-family: 'Ubuntu', sans-serif;
-
 }
