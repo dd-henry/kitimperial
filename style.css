@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&family=Ubuntu:wght@700&display=swap');@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&family=Ubuntu:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    
+}
+
+body{
+    font-size: 100%;
+    background: rgb(126, 253, 97);
+background: linear-gradient(145deg, rgb(123, 250, 95) 36%, rgb(43, 67, 39) 100%);
+background-repeat: no-repeat;
+background-size: auto;
+}
+
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 23px;
+}
+
+.cabecalho-img{
+    height: 22px;
+}
+.cabecalho-menu{
+    display: flex;
+    gap: 40px
+}
+.cabecalho-menu-item{
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 600;
+}
+
+.conteudo{
+    border-top: 0.4px solid rgb(0, 0, 0);
+    margin-bottom: 45px;
+}
+.conteudo-principal{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-around;
+    gap: 15%;
+    margin-left: 7%;
+    margin-right: 7%;
+    margin-top: 5%;
+    margin-bottom: 2%;
+}
+.conteudo-principal-escrito{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.conteudo-principal-imagem{
+    height: 600px;
+
+}
+.conteudo-principal-escrito-subtitulo{
+    display: flex;
+    align-self: center;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 700;
+}
+.conteudo-principal-escrito-titulo{
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 600;
+}
+.conteudo-principal-escrito-botao{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 20px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: large;
+    border-radius: 10px 0px 10px 10px;
+    background-color: whitesmoke;
+    color:black;
+    width: 450px;
+    height: 40px;
+    align-self: center;
+    align-content: center;
+    transition-duration: 0.4s;
+    
+}
+.conteudo-principal-escrito-botao:hover{
+    background-color: black;
+    color:whitesmoke;
+    width: 450px;
+    height: 40px;
+    align-self: center;
+    align-content: center;
+    
+}
+
+li{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 1%;
+    
+}
+.target{
+    height: 50px;
+}
+.item-lista{
+    display:flex;
+    justify-content: start;
+    gap: 30px;
+}
+.rodape{
+    padding-top: 0.5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom:20px;
+    border-top: 0.4px solid rgb(0, 0, 0);
+}
+.conteudo-secundario{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-items: start;
+    gap: 60px;
+    margin-left: 50px;
+    font-family: 'Ubuntu', sans-serif;
+
+}
+.conteudo-secundario-imagens{
+    display: flex;
+    flex-direction: row;
+    gap:2px;
+    height: 180px;
+    width: 180px;
+    margin-right: 44%;
+}
+.conteudo-principal-escrito-desc{
+    padding-left: 0.1%;
+}
+.conteudosecundario-titulo{
+    margin-left: 50px;
+}
